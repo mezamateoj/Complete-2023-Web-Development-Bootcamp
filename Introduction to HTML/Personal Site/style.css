@@ -31,7 +31,7 @@ html {
 }
 
 form.form-contact {
-    display: table;
+    display: flexbox;
 }
 
 div.form-contact {
@@ -40,7 +40,7 @@ div.form-contact {
 
 label,
 input {
-    display: table-cell;
+    display: grid;
     margin-bottom: 10px;
 }
 
@@ -48,6 +48,7 @@ label {
     padding-right: 10px;
 }
 
-#text-area {
-    text-align:start;
+div.form-text {
+    border-spacing: 3px;
+    display: grid;
 }

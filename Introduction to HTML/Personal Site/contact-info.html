@@ -25,8 +25,14 @@
         >.
       </li>
     </ul>
-
-    <form action="index.html" method="post" class="form-contact">
+    <!-- Should use in action mailto:mymail, this open the mail app -->
+    <form
+      action="mailto:mezamateoj@gmail.com"
+      target="_blank"
+      method="post"
+      class="form-contact"
+      enctype="text/plain"
+    >
       <div class="form-contact">
         <label for="name">Enter your name: </label>
         <input type="text" name="name" id="name" required />
@@ -35,7 +41,7 @@
         <label for="email">Your Email: </label>
         <input type="email" name="email" id="email" required />
       </div>
-      <div class="form-contact">
+      <div class="form-text">
         <label for="text-area">Your Message</label>
         <textarea name="text-area" id="text-area" cols="30" rows="5">
 What do you want to talk about?</textarea
