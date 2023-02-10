@@ -1,0 +1,34 @@
+h1 {
+  color: red;
+  font-size: 350%;
+  margin: 1px;
+}
+
+
+img {
+    background-color: red;
+    height: 150px;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#second-line {
+    color: cadetblue;
+    font-size: 26px;
+}
+
+.football {
+    background-color: darkblue;
+    border-radius: 100%;
+}
+
+.hover-try:hover {
+    color: cadetblue;
+    font-size: 20px;
+}
