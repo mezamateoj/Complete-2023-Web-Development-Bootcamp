@@ -1,7 +1,32 @@
 
 html {
-    font-family: "Monserrat",serif;
+    font-family: "Montserrat",serif;
     font-size: 15px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #D6E4E5;
+    border-width: 5px;
+    width: 10%;
+} 
+
+
+body {
+    background-color: #EFF5F5;
+}
+
+h1 {
+    color: #EB6440;
+}
+
+h3 {
+    color: #497174;
+}
+
+h2 {
+    color: #497174;
 }
 
 .introduction {
