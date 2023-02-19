@@ -24,7 +24,12 @@ body {
 .under {
   text-decoration: underline; 
 }
-
+.sun {
+  position: absolute;
+  width: 150px;
+  left: 500px;
+  top: 40px
+}
 .mountain {
   position: absolute;
   right: 350px;
