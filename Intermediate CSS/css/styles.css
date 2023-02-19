@@ -7,58 +7,37 @@ html {
 body {
   font-family: "Roboto Mono", sans-serif;
   background-color: #ecf9ff;
+  margin: 0px;
 }
 
 .intro {
-  height: 300px;
+  height: 500px;
   text-align: center;
   color: #f8cba6;
   background-color: #ffe7cc;
-  background-image: url("https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW91bnRhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
-  background-position: center;
+  /* background-image: url("https://www.svgrepo.com/show/484314/mountain.svg"); */
+  /* background-position: center, 50%; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+
+.under {
+  text-decoration: underline; 
+}
+
+.img1 {
+  position: absolute;
+  /* bottom: 80px;
+  right: 75px; */
+
 }
 
 #small-text {
   color: #645cbb;
+  margin: 0;
 }
 
 #name {
   margin-bottom: 1px;
-}
-
-.square-1 {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-  border: solid 10px;
-  padding: 20px;
-}
-
-.square-2 {
-  background-color: red;
-  height: 200px;
-  width: 200px;
-  border: solid 20px;
-  margin-left: 260px;
-}
-
-/* .square-2 p {
   margin-top: 0px;
-} */
-
-.explain {
-  background-color: yellow;
-  height: 200px;
-  width: 200px;
-  margin-left: 44vh;
-  border: solid 10px;
-  margin-left: 500px;
-}
-
-.explain p {
-  font-weight: bold;
-  color: #fff;
-  font-size: 16px;
-  padding: 15px;
-  margin: 5px;
 }
