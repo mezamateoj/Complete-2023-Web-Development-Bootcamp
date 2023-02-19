@@ -11,7 +11,7 @@ body {
 }
 
 .intro {
-  height: 540px;
+  height: 600px;
   text-align: center;
   color: #f8cba6;
   background-color: #ffe7cc;
@@ -26,13 +26,23 @@ body {
 }
 
 .mountain {
-  justify-content: center;
+  position: absolute;
+  right: 350px;
+  bottom: 0px;
+
+}
+
+.mountain-2 {
+  position: absolute;
+  width: 600px;
+  left: 300px;
+  bottom: 75px;
 }
 
 .cloud-1 {
   position: absolute;
   left: 175px;
-  width: 100px;
+  width: 150px;
   
 }
 
@@ -60,4 +70,5 @@ body {
 #name {
   margin-bottom: 1px;
   margin-top: 0px;
+  padding-top: 50px;
 }
