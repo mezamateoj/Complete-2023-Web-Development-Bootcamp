@@ -11,7 +11,7 @@ body {
 }
 
 .intro {
-  height: 500px;
+  height: 540px;
   text-align: center;
   color: #f8cba6;
   background-color: #ffe7cc;
@@ -25,11 +25,31 @@ body {
   text-decoration: underline; 
 }
 
-.img1 {
-  position: absolute;
-  /* bottom: 80px;
-  right: 75px; */
+.mountain {
+  justify-content: center;
+}
 
+.cloud-1 {
+  position: absolute;
+  left: 175px;
+  width: 100px;
+  
+}
+
+.cloud-2 {
+  position: absolute;
+  height: auto;
+  width: 100px;
+  right: 150px;
+  top: 110px;
+}
+
+.cloud-3 {
+  position: absolute;
+  height: auto;
+  width: 85px;
+  right: 380px;
+  top: 160px;
 }
 
 #small-text {
