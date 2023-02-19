@@ -24,24 +24,27 @@ body {
 .under {
   text-decoration: underline; 
 }
+
 .sun {
   position: absolute;
-  width: 150px;
-  left: 500px;
-  top: 40px
+  width: 115px;
+  left: 25%;
+  top: 5%;
 }
+
 .mountain {
   position: absolute;
-  right: 350px;
-  bottom: 0px;
+  width: 40%;
+  right: 10%;
+  bottom: 0%;
 
 }
 
 .mountain-2 {
   position: absolute;
-  width: 600px;
-  left: 300px;
-  bottom: 75px;
+  width: 25%;
+  left: 10%;
+  top: 35%;
 }
 
 .cloud-1 {
@@ -76,4 +79,12 @@ body {
   margin-bottom: 1px;
   margin-top: 0px;
   padding-top: 50px;
+}
+
+.about-me {
+  font-size: 24px;
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  bottom: 10%;
 }
