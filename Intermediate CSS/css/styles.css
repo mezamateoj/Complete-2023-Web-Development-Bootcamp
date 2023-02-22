@@ -25,38 +25,18 @@ body {
   text-decoration: underline; 
 }
 
-.sun {
-  position: absolute;
-  width: 115px;
-  left: 25%;
-  top: 5%;
-}
-
 
 .mountains-img {
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
-
+  align-items: flex-end;  
 }
 
-/* .mountain {
+.sun {
   position: absolute;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 40%;
-  right: 10%;
-  bottom: 0%;
-
+  top: 250px;
+  width: 115px;
 }
-
-.mountain-2 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 25%;
-} */
 
 .cloud-1 {
   position: absolute;
