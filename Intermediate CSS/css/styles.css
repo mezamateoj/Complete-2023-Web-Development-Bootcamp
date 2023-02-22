@@ -32,8 +32,19 @@ body {
   top: 5%;
 }
 
-.mountain {
+
+.mountains-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+
+}
+
+/* .mountain {
   position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 40%;
   right: 10%;
   bottom: 0%;
@@ -41,11 +52,11 @@ body {
 }
 
 .mountain-2 {
-  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   width: 25%;
-  left: 10%;
-  top: 35%;
-}
+} */
 
 .cloud-1 {
   position: absolute;
