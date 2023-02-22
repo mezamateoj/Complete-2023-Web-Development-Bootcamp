@@ -11,7 +11,7 @@ body {
 }
 
 .intro {
-  height: 600px;
+  height: 750px;
   text-align: center;
   color: #f8cba6;
   background-color: #ffe7cc;
@@ -32,33 +32,44 @@ body {
   align-items: flex-end;  
 }
 
+.sun-clouds {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
 .sun {
-  position: absolute;
-  top: 250px;
+  /* position: absolute; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* top: 250px; */
   width: 115px;
+  align-self: flex-end;
 }
 
 .cloud-1 {
-  position: absolute;
-  left: 175px;
+  /* position: absolute; */
+  /* left: 175px; */
   width: 150px;
   
 }
 
 .cloud-2 {
-  position: absolute;
+  /* position: absolute; */
   height: auto;
   width: 100px;
-  right: 150px;
-  top: 110px;
+  /* right: 150px;
+  top: 110px; */
 }
 
 .cloud-3 {
-  position: absolute;
+  /* position: absolute; */
   height: auto;
   width: 85px;
-  right: 380px;
-  top: 160px;
+  /* right: 380px;
+  top: 160px; */
 }
 
 #small-text {
@@ -72,10 +83,18 @@ body {
   padding-top: 50px;
 }
 
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
 .about-me {
   font-size: 24px;
   width: 40%;
-  position: absolute;
-  left: 30%;
-  bottom: 10%;
+}
+
+.about-me-2 {
+  font-size: 24px;
+  width: 40%;
 }
