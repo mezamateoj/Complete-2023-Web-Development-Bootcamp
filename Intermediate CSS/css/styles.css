@@ -1,25 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;700&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Roboto+Mono:wght@100;700&display=swap');
 
 html {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Roboto Mono", sans-serif;
+  font-family: "Roboto Mono", monospace;
   background-color: #ecf9ff;
   margin: 0px;
 }
 
-.intro {
+.top-container {
   height: 750px;
   text-align: center;
   color: #f8cba6;
   background-color: #ffe7cc;
-  /* background-image: url("https://www.svgrepo.com/show/484314/mountain.svg"); */
-  /* background-position: center, 50%; */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
 }
+
 
 .under {
   text-decoration: underline; 
@@ -40,11 +38,6 @@ body {
 }
 
 .sun {
-  /* position: absolute; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* top: 250px; */
   width: 115px;
   align-self: flex-end;
 }
@@ -57,44 +50,56 @@ body {
 }
 
 .cloud-2 {
-  /* position: absolute; */
   height: auto;
   width: 100px;
-  /* right: 150px;
-  top: 110px; */
 }
 
 .cloud-3 {
-  /* position: absolute; */
   height: auto;
   width: 85px;
-  /* right: 380px;
-  top: 160px; */
 }
 
 #small-text {
   color: #645cbb;
   margin: 0;
+  font-size: smaller;
 }
 
 #name {
   margin-bottom: 1px;
   margin-top: 0px;
   padding-top: 50px;
+  font-size: 50px;
 }
 
-.info {
-  display: flex;
-  justify-content: space-around;
-  align-content: space-around;
+#test {
+  margin-top: 50px;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 50% 50%;
+  margin-left: 200px;
+}
+
+
+.experience {
+  grid-column-start: 3;
+}
+
+.skills {
+  grid-column-start: 4;
+}
+
 
 .about-me {
   font-size: 24px;
-  width: 40%;
+  font-family: 'Playfair Display', sans-serif;
 }
+
 
 .about-me-2 {
   font-size: 24px;
-  width: 40%;
+  font-family: 'Montserrat', sans-serif;
 }
