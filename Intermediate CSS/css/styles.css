@@ -9,6 +9,7 @@ body {
   font-family: "Roboto Mono", monospace;
   background-color: #ecf9ff;
   margin: 0px;
+  padding: 0px 200px 200px 200px;
 }
 
 .top-container {
@@ -20,14 +21,14 @@ body {
 
 
 .under {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 
 .mountains-img {
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;  
+  align-items: flex-end;
 }
 
 .sun-clouds {
@@ -46,7 +47,7 @@ body {
   /* position: absolute; */
   /* left: 175px; */
   width: 150px;
-  
+
 }
 
 .cloud-2 {
@@ -74,22 +75,30 @@ body {
 
 #test {
   margin-top: 50px;
+  text-align: center;
 }
 
 .container {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: 500px 50px 50px 500px 50px;
+  grid-template-rows: 50px 50px;
+  column-gap: 10px;
+  row-gap: 15px;
+  justify-items: center;
+  
   margin-left: 200px;
 }
 
 
 .experience {
-  grid-column-start: 3;
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
 
 .skills {
   grid-column-start: 4;
+  grid-row-start: 1;
+
 }
 
 
