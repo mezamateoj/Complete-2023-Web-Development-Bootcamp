@@ -2,22 +2,35 @@
 
 body {
     background-color: black;
+    font-family: 'Libre Baskerville', sans-serif;
 }
 
-.text {
+.text, .more-text {
     color: white;
+    text-align: center;
 }
 
-/* 
+.text h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
 .photo-f1 {
-    
-    width: 42px;
-    height: 42px;
-    
-} */
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .photo-f1 img {
     height: auto;
     width: 50%;
-    vertical-align: center;
+    display: inline-block;
+    border: 5px solid white;
 }
