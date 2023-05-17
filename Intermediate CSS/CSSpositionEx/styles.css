@@ -1,0 +1,45 @@
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+}
+  
+.box-relative {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    background-color: burlywood;
+}
+
+.parent {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+  
+.box-absolute {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: aqua;
+}
+
+.box-fixed {
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: black;
+}
+
+.box-fixed p {
+    color: white;
+}
+  
+  
+  

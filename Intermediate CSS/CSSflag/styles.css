@@ -1,0 +1,42 @@
+.square {
+    position: relative;
+    background-color: red;
+    width: 500px;
+    height: 300px;
+    border: 2px solid white;
+}
+
+.blue {
+    position: absolute;
+    background-color: blue;
+    width: 500px;
+    height: 150px;
+    top: 75px;
+}
+
+.white {
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 150px;
+    bottom: 5px;
+}
+
+.blue p {
+    margin: 0;
+}
+
+
+
+/* .red-top {
+    position: absolute;
+} */
+
+.red-top p {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
