@@ -1,6 +1,6 @@
 .square {
     position: relative;
-    background-color: red;
+    background-color: #D21312;
     width: 500px;
     height: 300px;
     border: 2px solid white;
@@ -8,7 +8,7 @@
 
 .blue {
     position: absolute;
-    background-color: blue;
+    background-color: #0C134F;
     width: 500px;
     height: 150px;
     top: 75px;
@@ -17,15 +17,23 @@
 .white {
     position: absolute;
     background-color: white;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
-    left: 150px;
-    bottom: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .blue p {
+    position: absolute;
     margin: 0;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
 }
 
 
