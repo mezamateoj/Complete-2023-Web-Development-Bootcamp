@@ -1,0 +1,20 @@
+img {
+    height: 200px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+/* id selector  */
+#cook-time {
+    font-weight: bold;
+}
+
+.ingredients {
+    list-style: square;
+}
+
+.time {
+    color: gray;
+}

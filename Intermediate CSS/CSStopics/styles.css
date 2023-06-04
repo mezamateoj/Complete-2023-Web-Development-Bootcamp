@@ -1,0 +1,22 @@
+.hover-example {
+    background-color: aqua;
+    width: 200px;
+    height: 400px;
+    transition: all .5s ease;
+}
+
+.hover-example:hover {
+    background-color: red;
+    width: 100px;
+    height: 200px;
+}
+
+.first-example {
+    color: red;
+    font-size: large;
+}
+
+.first-example:first-child {
+    color: blue;
+    font-size: small;
+}
