@@ -1,0 +1,23 @@
+.main {
+    margin-top: 100px;
+}
+
+/* Centering with margins
+    1. display: block
+    2. must have width
+    3. margin left/right auto
+*/
+.logo-img {
+    display: block;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-input {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
