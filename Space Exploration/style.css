@@ -1,0 +1,40 @@
+body {
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0px;
+}
+
+.container {
+    background-image: url('./images/guillermo-ferla-Oze6U2m1oYU-unsplash.jpg');
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: white;
+}
+
+.apply {
+    width: 70px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 13px;
+    background: white;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+
+}
+
+.cta {
+    border-bottom: 4px solid white;
+    /* text-shadow: 0px 0px 2px white; */
+}
+
+h3 {
+    text-align: center;
+}
