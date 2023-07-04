@@ -1,0 +1,33 @@
+
+
+body {
+    margin: 0;
+    /* height: 100%; */
+}
+
+.container > div {
+    /* flex: 1; */
+    border: 2px solid red;
+    background-color: aqua;
+    width: 300px;
+}
+
+.container {
+    border: 5px solid black;
+    display: flex;
+}
+
+    
+
+/* .logout {
+    flex: 1 1 200px;
+} */
+
+/* .container > .search {
+    flex: 2;
+} */
+
+/* .logout {
+    align-self: flex-start;
+} */
+
